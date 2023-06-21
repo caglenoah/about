@@ -10,9 +10,7 @@ justify-content: center;
 
     border: 10px solid black;
 }
-.mconttwo {
 
-}
 
 img {
     width: 300px;
@@ -24,12 +22,9 @@ img {
 
 
 @media (max-width: 578px) {
-    display: flex ;
+    .mcont { display: flex;
+        flex-direction: column;
+    }
 
-    justify-content: space-evenly;
-    div {
-        display: flex ;
-    flex-flow: column wrap;
-    justify-content: space-evenly;
-    }
-    }
+    
+}
